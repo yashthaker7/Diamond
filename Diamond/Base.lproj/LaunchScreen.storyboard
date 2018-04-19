@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="gqn-ok-5OF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="hqo-cJ-sXs">
+                                <rect key="frame" x="125" y="343.66666666666669" width="125" height="125"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="layerMask" translatesAutoresizingMaskIntoConstraints="NO" id="Ybv-DH-MMH">
+                                <rect key="frame" x="0.0" y="80.333333333333314" width="115" height="276"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="layerMask2" translatesAutoresizingMaskIntoConstraints="NO" id="0nO-7W-5GU">
+                                <rect key="frame" x="260" y="456.33333333333326" width="115" height="276"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="glare" translatesAutoresizingMaskIntoConstraints="NO" id="nrb-cF-9gj">
+                                <rect key="frame" x="300" y="0.0" width="75" height="95"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hqo-cJ-sXs" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="CSS-WT-5AU"/>
+                            <constraint firstAttribute="trailing" secondItem="nrb-cF-9gj" secondAttribute="trailing" id="DcG-oT-klK"/>
+                            <constraint firstItem="0nO-7W-5GU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Ghi-pq-jov"/>
+                            <constraint firstItem="0nO-7W-5GU" firstAttribute="top" secondItem="hqo-cJ-sXs" secondAttribute="centerY" constant="50" id="R7W-20-8d5"/>
+                            <constraint firstItem="gqn-ok-5OF" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="XW2-pr-yRP"/>
+                            <constraint firstItem="gqn-ok-5OF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YBl-P9-OgW"/>
+                            <constraint firstAttribute="bottom" secondItem="gqn-ok-5OF" secondAttribute="bottom" id="bhG-Sy-sn1"/>
+                            <constraint firstItem="nrb-cF-9gj" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="i8W-0H-URP"/>
+                            <constraint firstItem="gqn-ok-5OF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="pi6-oI-3RE"/>
+                            <constraint firstItem="Ybv-DH-MMH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="q1W-c0-rXn"/>
+                            <constraint firstItem="hqo-cJ-sXs" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="sPG-XF-wGf"/>
+                            <constraint firstItem="Ybv-DH-MMH" firstAttribute="bottom" secondItem="hqo-cJ-sXs" secondAttribute="centerY" constant="-50" id="tSP-gT-qET"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="373.76311844077964"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="125" height="125"/>
+        <image name="bg" width="375" height="812"/>
+        <image name="glare" width="75" height="95"/>
+        <image name="layerMask" width="115" height="276"/>
+        <image name="layerMask2" width="115" height="276"/>
+    </resources>
+</document>
