@@ -35,6 +35,10 @@
 		CFEDCC622080B5DA0086ACF2 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		CFEDCC672080C2AB0086ACF2 /* GlareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlareView.swift; sourceTree = "<group>"; };
 		D326B9312088FBE100681846 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D326B9512088FE7C00681846 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		D326B9522088FE7C00681846 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		D326B9532088FE7C00681846 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		D326B9542088FE7C00681846 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,10 @@
 		D326B9322088FBFD00681846 /* Screenshot */ = {
 			isa = PBXGroup;
 			children = (
+				D326B9512088FE7C00681846 /* 01.png */,
+				D326B9522088FE7C00681846 /* 02.png */,
+				D326B9542088FE7C00681846 /* 03.png */,
+				D326B9532088FE7C00681846 /* AppIcon.png */,
 			);
 			path = Screenshot;
 			sourceTree = "<group>";
