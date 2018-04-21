@@ -10,6 +10,7 @@ import UIKit
 
 class ForgotPasswordViewController: UIViewController {
     
+    var titleBtn: UIButton!
     var emailLabel: UILabel!
     var emailTextField: UITextField!
     var demoView: UIView! // set createBtn cntr between textfield and view's bottom
@@ -38,6 +39,10 @@ class ForgotPasswordViewController: UIViewController {
     }
     
     func setupView() {
+        titleBtn = loginSignUp.createButton(title: "FORGOT PASSWORD")
+        titleBtn.titleLabel?.font = UIFont(name: "HelveticaNeue-Medium", size: 22)
+        titleBtn.contentHorizontalAlignment = .left
+        
         emailLabel = loginSignUp.createLabel(text: "EMAIL")
         emailTextField = loginSignUp.createTextField()
         emailTextField.layer.borderColor = UIColor.darkGray.cgColor
@@ -54,6 +59,7 @@ class ForgotPasswordViewController: UIViewController {
         
         forgotView = loginSignUp.createView()
         
+        forgotView.addSubview(titleBtn)
         forgotView.addSubview(cancleBtn)
         forgotView.addSubview(emailLabel)
         forgotView.addSubview(emailTextField)
@@ -61,13 +67,16 @@ class ForgotPasswordViewController: UIViewController {
         forgotView.addSubview(resetBtn)
         view.addSubview(forgotView)
         
+        titleBtn.leftAnchor.constraint(equalTo: forgotView.leftAnchor, constant: 16).isActive = true
+        titleBtn.centerYAnchor.constraint(equalTo: cancleBtn.centerYAnchor).isActive = true
+        
         cancleBtn.rightAnchor.constraint(equalTo: forgotView.rightAnchor, constant: -8).isActive = true
         cancleBtn.topAnchor.constraint(equalTo: forgotView.topAnchor, constant: 8).isActive = true
         cancleBtn.heightAnchor.constraint(equalToConstant: 50).isActive = true
         cancleBtn.widthAnchor.constraint(equalToConstant: 50).isActive = true
         
         emailLabel.leftAnchor.constraint(equalTo: forgotView.leftAnchor, constant:21).isActive = true
-        emailLabel.topAnchor.constraint(equalTo: forgotView.topAnchor, constant: (self.view.frame.size.width * 0.16)).isActive = true
+        emailLabel.topAnchor.constraint(equalTo: cancleBtn.bottomAnchor, constant: 16).isActive = true
 
         emailTextField.leftAnchor.constraint(equalTo: forgotView.leftAnchor, constant:16).isActive = true
         emailTextField.rightAnchor.constraint(equalTo: forgotView.rightAnchor, constant: -16).isActive = true
