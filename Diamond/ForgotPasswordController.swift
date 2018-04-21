@@ -31,7 +31,8 @@ class ForgotPasswordViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.applyGradient(colors: [#colorLiteral(red: 0.262745098, green: 0.262745098, blue: 0.262745098, alpha: 1),#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)], type: .vertical)
+        view.backgroundColor = .white
+        view.applyGradient(colors: [#colorLiteral(red: 0.262745098, green: 0.262745098, blue: 0.262745098, alpha: 0.8),#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.8043573944)], type: .vertical)
         
         setupGlareView()
         

@@ -39,6 +39,7 @@
 		D326B9522088FE7C00681846 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
 		D326B9532088FE7C00681846 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
 		D326B9542088FE7C00681846 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		D3442292208B3DE3004232E8 /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 				D326B9512088FE7C00681846 /* 01.png */,
 				D326B9522088FE7C00681846 /* 02.png */,
 				D326B9542088FE7C00681846 /* 03.png */,
+				D3442292208B3DE3004232E8 /* 04.png */,
 				D326B9532088FE7C00681846 /* AppIcon.png */,
 			);
 			path = Screenshot;
