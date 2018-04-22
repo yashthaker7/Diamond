@@ -7,4 +7,4 @@ It’s a simple & elegant user intarface design of login & sign up developed in 
 ![Screenshot](Screenshot/03.png)
 ![Screenshot](Screenshot/04.png) <br />
 
-![gif](Screenshot/LaunchScreen.gif)
+<img src="Screenshot/LaunchScreen.gif" width="250">
