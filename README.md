@@ -5,4 +5,6 @@ It’s a simple & elegant user intarface design of login & sign up developed in 
 ![Screenshot](Screenshot/01.png)
 ![Screenshot](Screenshot/02.png)
 ![Screenshot](Screenshot/03.png)
-![Screenshot](Screenshot/04.png)
+![Screenshot](Screenshot/04.png) <br />
+
+![gif](Screenshot/01.gif)
